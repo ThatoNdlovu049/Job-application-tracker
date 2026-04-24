@@ -1,10 +1,10 @@
-# 📋 Job Application Tracker
+# Job Application Tracker
 
 A desktop application built with Python and Tkinter that helps you manage and track your job applications in one place. Monitor your application statuses, interview rates, and outcomes through a clean dashboard interface backed by a local SQLite database.
 
 ---
 
-## 📸 Features Overview
+## Features Overview
 
 - **Dashboard** — View live stats including total applications, interviews, offers, rejections and your interview rate at a glance
 - **Application Table** — Browse all your applications in a sortable, searchable table
@@ -16,7 +16,7 @@ A desktop application built with Python and Tkinter that helps you manage and tr
 
 ---
 
-## 🗂 Project Structure
+## Project Structure
 
 ```
 Job_Tracker/
@@ -40,7 +40,7 @@ Job_Tracker/
 
 ---
 
-## ⚙️ Prerequisites
+## Prerequisites
 
 Before running the app, make sure you have the following installed:
 
@@ -61,7 +61,7 @@ A small test window should appear if Tkinter is installed correctly.
 
 ---
 
-## 🚀 Installation
+## Installation
 
 1. **Clone or download the repository**
 ```bash
@@ -85,7 +85,7 @@ The `applications.db` SQLite database file will be created automatically in the 
 
 ---
 
-## 📖 Usage
+## Usage
 
 ### Launching the App
 ```bash
@@ -117,7 +117,7 @@ python main.py
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ---
 
@@ -155,10 +155,10 @@ Reinstall Python from [python.org](https://www.python.org/downloads/) — the of
 
 ---
 
-## 👤 Author: Thato Ndlovu
+## Author: Thato Ndlovu
 
 Built as a portfolio project to demonstrate Python desktop application development with Tkinter, SQLite and a layered MVC-style architecture.
 
 ---
 
-*Built with Python 🐍 | Tkinter | SQLite3*
+*Built with Python | Tkinter | SQLite3*
