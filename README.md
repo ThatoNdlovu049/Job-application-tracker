@@ -117,44 +117,6 @@ python main.py
 
 ---
 
-## Troubleshooting
-
----
-
-### Tkinter not found error
-```
-ModuleNotFoundError: No module named 'tkinter'
-```
-**Fix (Linux/Ubuntu):**
-```bash
-sudo apt-get install python3-tk
-```
-**Fix (Mac):**
-Reinstall Python from [python.org](https://www.python.org/downloads/) — the official installer includes Tkinter.
-
----
-
-### Clicking Edit or Delete crashes the app
-**Cause:** No row was selected in the table before clicking the button.
-
-**Fix:** Always click a row in the table first to select it, then click Edit or Delete.
-
----
-
-### Search returns no results
-**Cause:** The search matches exact company name or exact ID only. Partial searches are not supported.
-
-**Fix:** Type the full company name as it was entered, or use the exact numeric ID.
-
----
-
-### Date validation error on save
-**Cause:** The date field requires a specific format.
-
-**Fix:** Enter dates in `YYYY-MM-DD` format only. Example: `2024-03-15`
-
----
-
 ## Author: Thato Ndlovu
 
 Built as a portfolio project to demonstrate Python desktop application development with Tkinter, SQLite and a layered MVC-style architecture.
